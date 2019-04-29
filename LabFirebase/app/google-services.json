@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661728337279",
+    "firebase_url": "https://labmovilesfirebase.firebaseio.com",
+    "project_id": "labmovilesfirebase",
+    "storage_bucket": "labmovilesfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661728337279:android:bcfd7d34b98a47b5",
+        "android_client_info": {
+          "package_name": "com.example.labfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661728337279-ggeclu0dcdg67pg3c720pnvcmr0btb7a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.labfirebase",
+            "certificate_hash": "b58d9a2d2fe4e1ab3dd168ffa55d35a835ba710d"
+          }
+        },
+        {
+          "client_id": "661728337279-4etsah8g04gj4uo0aju8e21o4u8h3gqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASPhuQ4bbWysqakoLhVIXTCfogjwEG980"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661728337279-4etsah8g04gj4uo0aju8e21o4u8h3gqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

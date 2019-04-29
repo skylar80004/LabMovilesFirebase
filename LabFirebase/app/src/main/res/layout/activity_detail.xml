@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewDescriptionTitle" />
 
     <TextView
-        android:id="@+id/textViewPrice"
+        android:id="@+id/textViewPriceTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -62,7 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textViewDescriptionValue" />
 
     <TextView
-        android:id="@+id/textViewPriceTitle"
+        android:id="@+id/textViewPriceValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -71,20 +71,22 @@
         android:text="500$"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.007"
-        app:layout_constraintStart_toEndOf="@+id/textViewPrice"
+        app:layout_constraintStart_toEndOf="@+id/textViewPriceTitle"
         app:layout_constraintTop_toBottomOf="@+id/textViewDescriptionValue" />
 
     <ImageView
-        android:id="@+id/imageViewProductPhoto"
-        android:layout_width="143dp"
-        android:layout_height="128dp"
+        android:id="@+id/imageViewDetailPhoto"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewPriceTitle"
-        tools:srcCompat="@color/colorAccent" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewPriceValue"
+        app:srcCompat="@color/colorPrimary" />
 
 
 </android.support.constraint.ConstraintLayout>
